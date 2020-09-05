@@ -1,11 +1,4 @@
-@import "./styles/Header.css";  
-@import "./styles/Footer.css";
-@import "./styles/Main.css";
-@import '~antd/dist/antd.css';
-@import "./styles/SatSetting.css";
-@import './styles/SatSetting.css';
-@import "./styles/SatelliteList.css";
-@import "./styles/WordMap.css";
+@import "./App.css";
 
 body {
   margin: 0;
@@ -15,8 +8,28 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App-logo {
+    height: 60px;
+    padding-left: 25px;
+}
+
+.App-header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    color: #1f6099;
+    box-shadow: rgb(220, 220, 220) 0px 2px 10px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
